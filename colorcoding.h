@@ -4,6 +4,9 @@
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
+const char MajorColorNames[];
+const char MinorColorNames[];
+
 #define MAX_COLORPAIR_NAME_CHARS 16
 
 typedef struct {
