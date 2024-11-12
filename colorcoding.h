@@ -4,8 +4,8 @@
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
-const char MajorColorNames[];
-const char MinorColorNames[];
+const char MajorColorNames[5];
+const char MinorColorNames[5];
 int numberOfMajorColors;
 int numberOfMinorColors;
 
