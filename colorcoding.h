@@ -4,10 +4,10 @@
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
-const char* MajorColorNames[];
 int numberOfMajorColors;
-const char* MinorColorNames[];
 int numberOfMinorColors;
+const char* MajorColorNames[numberOfMajorColors];
+const char* MinorColorNames[numberOfMinorColors];
 
 #define MAX_COLORPAIR_NAME_CHARS 16
 
